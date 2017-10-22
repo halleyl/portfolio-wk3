@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Lauren Halley</title>
+  <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
 </head>
 <body>
+  <img class="logo" src="images/logo.png" alt="LH Logo">
   <header>
-    <!-- logo, header and navigation -->
-    <img src="images/logo.png" alt="LH Logo">
+    <!-- header and navigation -->
     
     <h1>Lauren Halley</h1>
     
@@ -22,31 +23,10 @@
     <!-- list of portfolio projects, list of links -->
 
     <hr>
-    <article>
-      <h3><a href="#"><time datetime="2017-10-05">Week 1</time> - Semantic Tags</a></h3>    
-      <img src="images/week1-thumb.jpg" alt="Week 1 - Semantic Tags">
-      <p>I created a simple biography page using HTML5 semantic tags such as <code>&lt;header&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;aside&gt;</code>.</p>
-    </article>
-  
-    <hr>
-    <article>
-      <h3><a href="#"><time datetime="2017-10-12">Week 2</time> - Portfolio</a></h3>
-      <img src="images/week2-thumb.jpg" alt="Week 2 - Portfolio">
-      <p>I created a two-page portfolio website to learn about tags, attributes, relative links and browser compatibility.</p>
-    </article>
-
-    <hr>
-    <article>
-      <h3><a href="#"><time datetime="2017-10-19">Week 3</time> - Who Knows?</a></h3>
-      <img src="images/week3-thumb.jpg" alt="Week 3">
-      <p>This is where I'll put the week 3 assignment!</p>
-    </article>
-    
-    <hr>
-    <aside>
+    <aside id="resources">
       <h4>Resources</h4>
-      <p>Here are some helpful sites that I've discovered so far:</p>
-      
+      <p>Links about HTML:</p>
+
       <ul>      
         <li><a href="https://validator.w3.org/" target="_blank">W3C Markup Validation</a></li>
         <li><a href="https://html5.validator.nu/" target="_blank">Validator.nu (X)HTML Validator</a></li>
@@ -54,17 +34,44 @@
         <li><a href="https://www.reddit.com/r/html5/" target="_blank">HTML5 &amp; Friends Subreddit</a></li>
       </ul>
       
+      <p>Links about CSS:</p>
+      <ul>
+        <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validation</a></li>
+        <li><a href="https://www.w3schools.com/cssref/css_websafe_fonts.asp" target="_blank">CSS Websafe Fonts</a></li>
+      </ul>
+
     </aside>    
+
+    <article>
+      <h3><a href="#"><time datetime="2017-10-05">Week 1</time> - Semantic Tags</a></h3>    
+      <img class="thumb" src="images/week1-thumb.jpg" alt="Week 1 - Semantic Tags">
+      <p>I created a simple biography page using HTML5 semantic tags such as <code>&lt;header&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;aside&gt;</code>.</p>
+    </article>
+  
+    <hr>
+    <article>
+      <h3><a href="#"><time datetime="2017-10-12">Week 2</time> - Portfolio</a></h3>
+      <img class="thumb" src="images/week2-thumb.jpg" alt="Week 2 - Portfolio">
+      <p>I created a two-page portfolio website to learn about tags, attributes, relative links and browser compatibility.</p>
+    </article>
+
+    <hr>
+    <article>
+      <h3><a href="#"><time datetime="2017-10-19">Week 3</time> - Who Knows?</a></h3>
+      <img class="thumb" src="images/week3-thumb.jpg" alt="Week 3">
+      <p>This is where I'll put the week 3 assignment!</p>
+    </article>
+    
+    <hr>
   </main>
 
-  <hr>
   <footer>
     <!-- Bottom nav and copyright -->
     <nav>
       <a href="index.html">Portfolio</a> &nbsp;&bull;&nbsp; 
       <a href="about.html">About Me</a>
     </nav>
-    <p>&copy; 2017 Lauren Halley</p>
+    <p class="copy">&copy; 2017 Lauren Halley</p>
 
   </footer>
 </body>

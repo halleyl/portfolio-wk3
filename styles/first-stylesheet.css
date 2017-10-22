@@ -1,0 +1,91 @@
+/* Set font family for page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: azure;
+}
+
+/* Style the h1 title */
+h1 {
+  color: darkblue;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+/* Set link colors for article titles, nav links and aside */
+h3 a {
+  color: darkblue;
+}
+h3 a:visited {
+  color: hsla(0, 0%, 40%, 1);
+}
+h3 a:hover {
+  color: royalblue;
+}
+nav a {
+  color: darkblue;
+}
+nav a:hover {
+  color: royalblue;
+}
+aside a {
+  color: darkgreen;
+}
+aside a:visited {
+  color: hsla(0, 0%, 40%, 1);
+}
+aside a:hover {
+  color: green;
+}
+
+/* Put drop shadow on portfolio thumbnails and float them to the left of text */
+img.thumb {
+  box-shadow: 0.25rem 0.25rem 0.5rem hsla(0, 0%, 0%, .5);
+  float: left;
+  margin: 0rem 1rem 1rem 0rem;
+}
+
+/* Clear the thumbanil float at horizontal rule (after the text wraps), style the HRs to look nicer */
+hr {
+  clear: left;
+  border: solid 0.03rem darkblue;
+  margin: 0.5rem 2rem 0.5rem 2rem;
+}
+
+/* Center nav text and make copyright smaller */
+nav {
+  text-align: center;
+}
+p.copy {
+  text-align: center;
+  font-size: 0.75rem
+}
+
+/* Float the page logo left */
+img.logo {
+  float: left;
+  margin: 0rem 1rem 1rem 1rem;
+}
+
+/* Indent the articles a little bit */
+article {
+  margin-left: 2%;
+}
+
+/* Put the aside on the right side and style it */
+aside#resources {
+  background-color: white;
+  border: solid 1px black;
+  box-shadow: 0.25rem 0.25rem 0.5rem hsla(0, 0%, 0%, 0.5);
+  width: 20%;
+  float: right;
+  margin: 2%;
+  padding: 0rem 0.55rem 0.25rem 1rem;
+}
+
+/* Style aside heading */
+aside h4 {
+  font-size: 1.25rem;
+  color: forestgreen;
+  text-align: center;
+}
