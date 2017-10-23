@@ -7,26 +7,20 @@ body {
 /* Style the h1 title */
 h1 {
   font-family: "Arial Black", Gadget, sans-serif;
-  color: darkblue;
+  color: navy;
   font-size: 2.5rem;
   text-align: center;
 }
 
 /* Set link colors for article titles, nav links and aside */
-h3 a {
+a {
   color: darkblue;
 }
-h3 a:visited {
+a:visited {
   color: hsla(0, 0%, 40%, 1);
 }
-h3 a:hover {
-  color: royalblue;
-}
-nav a {
-  color: darkblue;
-}
-nav a:hover {
-  color: royalblue;
+a:hover {
+  color: blue;
 }
 aside a {
   color: darkgreen;
