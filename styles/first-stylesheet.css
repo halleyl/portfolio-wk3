@@ -73,7 +73,7 @@ article {
 
 /* Put the aside on the right side and style it */
 aside#resources {
-  background-color: white;
+  background-color: lightgoldenrodyellow;
   border: 1px solid black;
   box-shadow: 0.25rem 0.25rem 0.5rem hsla(0, 0%, 0%, 0.5);
   width: 20rem;
