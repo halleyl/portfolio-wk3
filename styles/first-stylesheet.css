@@ -46,7 +46,7 @@ img.thumb:hover {
 /* Clear the thumbanil float at horizontal rule (after the text wraps), style the HRs to look nicer */
 hr {
   clear: left;
-  border: solid 0.03rem darkblue;
+  border: 1px solid darkblue;
   margin: 0.5rem 2rem 0.5rem 2rem;
 }
 
@@ -74,7 +74,7 @@ article {
 /* Put the aside on the right side and style it */
 aside#resources {
   background-color: white;
-  border: solid 1px black;
+  border: 1px solid black;
   box-shadow: 0.25rem 0.25rem 0.5rem hsla(0, 0%, 0%, 0.5);
   width: 20rem;
   max-width: 40%;
@@ -94,7 +94,7 @@ aside h4 {
 img#charlie {  
   width: 320px;
   max-width: 30%;
-  border: solid 1px black;
+  border: 1px solid black;
   border-radius: 10px;
   float: left;
   margin: 0.5rem 1rem 0.5rem 2rem;
